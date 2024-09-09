@@ -6,48 +6,51 @@
     <title>Formulário</title>
 </head>
 <body>
-    <h1>Cadastro Aluno</h1>
-    <form action="#" method="get">
-        <label for="Nome">Nome</label>
-        <input
-        type="text"
-        name="Nome"
-        id="Nome"
-        required/>
-
+   <fieldset>
+    <legend>
+         <h1>Cadastro Aluno</h1>
+        </legend>
+        <form action="#" method="get">
+            <label for="Nome">Nome</label>
+            <input
+            type="text"
+            name="Nome"
+            id="Nome"
+            required/>
+            
+            <br />
         <br />
-        <br />
-
+        
         <label for="Idade">Idade</label>
         <input type="number" name="Idade" id="Idade0" min="16" max="40">
-
+        
         <br />
         <br />
-
+        
         <label for="imgProdutos">Imagem de Produtos</label>
         <input type="file" name="imgProdutos" id="imgProdutos" multiple>
-
+        
         <br />
         <br />
-
+        
         <label for="E-mail">E-mail</label>
         <input type="email" name="E-mail" id="E-mail">
-
+        
         <br />
         <br />
-
+        
         <label for="password">Senha</label>
         <input type="password" name="password" id="password">
-
+        
         <br />
         <br />
-
+        
         <laber for="aniversario">Data de Nascimento</laber>
         <input type="date" name="aniversario" id="aniversario" max="2012-12-31">
-
+        
         <br />
         <br />
-
+        
         <label for="phone">Telefone</label>
         <input
         type="tel"
@@ -57,20 +60,20 @@
         maxlength="15"
         placeholder="(xx) xxxxx-xxxx"
         />
-
+        
         <br />
         <br />
-
+        
         <label for="genero">Gênero:</label>
         <input type="radio" name="sexo" id="feminino" value="feminino" />
         <label for="feminino">Feminino</label>
-
+        
         <input type="radio" name="sexo" id="masculino" value="masculino" />
         <label for="masculino">Masculino</label>
-
+        
         <br />
         <br />
-
+        
         <label for="state">Estado</label>
         <select name="state" id="state">
             <option value="São Paulo">São Paulo</option>
@@ -78,21 +81,22 @@
             <option value="Minas Gerais">Minas Gerais</option>
             <option value="Espirito Santo">Espirito Santo</option>
         </select>
-
+        
         <br />
         <br />
-
+        
         <label for="mensagem">Mensagem</label>
         <textarea
         id="mensagem"
         name="mensagem"
         ></textarea>
-
+        
         <br />
         <br />
-
+        
         <input type="submit" value="Enviar"/>
-
+        
     </form>
-  </body>
+</fieldset>
+</body>
 </html>
